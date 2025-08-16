@@ -71,3 +71,4 @@ df.to_excel(output_path, index=False)
 # Resultaat tonen
 print(df[['Sessie gestart', 'Sessie beëindigd', 'Daguren', 'Nachturen', 'Verbruik_dag', 'Verbruik_nacht', 'Totale_kost_cent']])
 print(f"Bestand opgeslagen als: {output_path}")
+
